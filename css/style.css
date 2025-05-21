@@ -234,7 +234,7 @@ html{
     box-shadow: 0px 0px 10px #00000024;
     border-radius: 5px;
 }
-#appoint .col-lg-7:first-child, #login .container:nth-child(1){
+#appoint .col-lg-7:first-child, #login .container:nth-child(1), #shakti, #rbk, .movs, .magic{
     box-shadow: 0px 0px 10px #00000024;
     border-radius: 5px;
 }
@@ -335,6 +335,51 @@ html{
 #self i, #self span{
     color: #1A76d1;
 }
+#blog-sec2 .card{
+    text-align: left !important;
+}
+#blog-sec2 .card-body h2{
+    font-size: 1.5rem !important;
+}
+#blog-sec2 .card-body h4{
+    background-color: #2389ef;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 1rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px !important;
+}
+#rbk h4{
+    font-size: 0.8rem;
+}
+#rbk ul li{
+    font-size: 0.7rem;
+}
+#shakti ul a{
+    font-size: 0.9rem !important;
+}
+#strike ul li a:hover{
+    color: #fff;
+    background-color: #2389ef;
+}
+#blog-sec2 h3
+{
+    border-left: 5px solid #2389ef;
+    padding-left: 10px;
+}
+.movs ul li{
+    line-height: 2;
+}
+.magic form{
+    padding: 40px;
+    border: none;
+}
+.magic a{
+    padding: 10px !important;
+}
+
 /* fourth section */
 
 #fourth{
@@ -1178,7 +1223,6 @@ form input,.left-7 form select{
     }
     .container .box{
         margin: 20px 0;
-        /* grid-template-columns: 100%; */
     }
 
     #con-2 .pseudo::before, #con-2 .pseudo::after{
@@ -1188,7 +1232,6 @@ form input,.left-7 form select{
         height: 690px;
     }
     #hey{
-        /* grid-template-columns: 100%; */
         padding: 40px 0;
         text-align: center;
     }
@@ -1216,12 +1259,12 @@ form input,.left-7 form select{
     }
     #style img{
         margin-bottom: 40px;
-        /* padding-right: 30px; */
-        /* width: 100%; */
     }
     #style .blocks button{
-        margin-top: 300px;
         padding: 20px;
+    }
+    #style .blocks {
+        height: 88%;
     }
     #gear img{
         bottom: 82px;
@@ -1232,7 +1275,6 @@ form input,.left-7 form select{
         margin-bottom: 50px;
     }
     #central{
-        /* grid-template-columns: repeat(3,30%); */
         padding-bottom: 20px;
         line-height: 1.5;
     }
@@ -1251,14 +1293,13 @@ form input,.left-7 form select{
         width: 250px !important;
     }
     textarea{
-        width: 502px !important;
+        width: 100% !important;
     }
     .left9-2 ul{
         padding-left: 0rem;
     }
 
 }
-
 
 
 @media only screen and (max-width:1024px) and (min-width:992px){
@@ -1363,17 +1404,12 @@ form input,.left-7 form select{
 @media only screen and (max-width:480px){
     
     .first .inner{
-        /* grid-template-columns: 100%; */
         text-align: center;
         padding-bottom: 0px;
     }
     .right{
         padding: 20px 0;
         text-align: center;
-        /* justify-content: space-between; */
-    }
-    .second{
-        /* grid-template-columns: 100%; */
     }
     .second ul{
         display: none;
@@ -1399,9 +1435,6 @@ form input,.left-7 form select{
         width: 400px;
     }
 
-    .hey{
-        /* grid-template-columns: 100%; */
-     }
      .fourth{
         height: 100%;
      }
@@ -1437,6 +1470,12 @@ form input,.left-7 form select{
         background-position: bottom;
         height: 45vh;
     }
+    #style .col-lg-3:nth-child(n+2){
+        display: none !important;
+    }
+    #style {
+        margin: 0px 0 0px 0px;
+    }
     #fourth{
         height: 70vh;
     }
@@ -1444,7 +1483,6 @@ form input,.left-7 form select{
         padding: 0px 0;
     }
     .over{
-        /* grid-template-columns: 100%; */
         line-height: 2;
     }
     textarea,form input,.left-7 form select{
@@ -1503,7 +1541,6 @@ form input,.left-7 form select{
         
     }
     .right span{
-        /* grid-template-columns: 100%; */
         margin-bottom: 10px;
     }
     .left-1{
@@ -1511,12 +1548,6 @@ form input,.left-7 form select{
     }
     .right-1{
         padding-left: 0px;
-    }
-    .third{
-        /* height: 500px; */
-    }
-    .central{
-        /* grid-template-columns: repeat(4,24%); */
     }
     .centt h2{
         font-size: .8rem;
@@ -1529,7 +1560,7 @@ form input,.left-7 form select{
     }
     .container .box{
         top: 0px;
-        margin: 60px 0;
+        /* margin: 60px 0; */
         /* margin-bottom: 20px; */
     }
     .right9-2 form input{
@@ -1547,13 +1578,25 @@ form input,.left-7 form select{
     }
 }
 
+@media only screen and (max-width:376px){
+    
+    .calvin h2 {
+        padding-right: 145px;
+    }
+    #gear img {
+        left: -110px;
+    }
+    
+    textarea {
+        width: 70% !important;
+    }
+}
 
 @media only screen and (max-width:325px){
 
     
     
     .right{
-        /* grid-template-columns: 100%; */
         font-size: 0.6rem !important;
     }
     .third{
@@ -1584,5 +1627,8 @@ form input,.left-7 form select{
     }
     #gear img {
         left: -80px;
+    }
+    textarea {
+        width: 80% !important;
     }
 }
