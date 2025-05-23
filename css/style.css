@@ -1270,7 +1270,7 @@ form input,.left-7 form select{
         bottom: 82px;
         left: -183px;
     }
-
+    
     .pics{
         margin-bottom: 50px;
     }
@@ -1310,6 +1310,9 @@ form input,.left-7 form select{
 #styloo span{
     font-size: 0.7rem;
 }
+#hp{
+    width: 70%;
+}
 .right-2 iframe{
     height: 400px;
     width: 450px;
@@ -1340,7 +1343,7 @@ form input,.left-7 form select{
     font-size: 0.7rem;
 }
 #hey {
-    padding-top: 120px;
+    padding-top: 45px;
 }
 #right-1 h1{
     font-size: 1.5rem !important;
@@ -1356,10 +1359,16 @@ form input,.left-7 form select{
     display: none;
 }
 
-
-
-
-
+#nineth .carousel-indicators{
+    top: 200px;
+}
+#divide a {
+    width: 415px;
+    height: 65px;
+}
+.left9-2 ul li a {
+    padding-left: 7px;
+}
  .third{
     background-position: right;
  }   
@@ -1580,15 +1589,29 @@ form input,.left-7 form select{
 
 @media only screen and (max-width:376px){
     
+    #first ul, #styloo{
+        text-align: center;
+    }
     .calvin h2 {
         padding-right: 145px;
     }
     #gear img {
         left: -110px;
     }
-    
+    #note{
+        padding: 0px 0px;
+    }
     textarea {
         width: 70% !important;
+    }
+    .right-7 img{
+        padding-top: 35px;
+    }
+    #right-8 button{
+        width: 140px;
+    }
+    .right9-2 form input{
+        width: 240px !important;
     }
 }
 
