@@ -1464,11 +1464,11 @@ form input,.left-7 form select{
         width: 80%;
     }
     form input,.left-7 form select{
-        width: 200px;
+        width: 180px;
         margin: 15px 0;
     }
     textarea{
-        width: 88% !important;
+        width: 93% !important;
     }
 }
 
