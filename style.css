@@ -1470,9 +1470,6 @@ form input,.left-7 form select{
     .left-7 textarea{
         width: 95% !important;
     }
-        .right9-2 form input {
-        width: 306px !important;
-    }
 }
 
 @media only screen and (max-width:426px){
@@ -1551,7 +1548,7 @@ form input,.left-7 form select{
 }
 
 
-@media only screen and (max-width:421px){
+@media only screen and (max-width:425px)and (min-width:420px){
     
     html{
         font-size: 15px;
@@ -1595,8 +1592,11 @@ form input,.left-7 form select{
         /* margin: 60px 0; */
         /* margin-bottom: 20px; */
     }
+    .left-7 form input, .left-7 form select {
+        width: 375px !important;
+    }
     .right9-2 form input{
-        width: 240px;
+        width: 335px !important;
     }
     .right9-2 span{
         top: 0px;
