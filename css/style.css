@@ -1416,7 +1416,7 @@ form input,.left-7 form select{
 
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:481px){
     
     .first .inner{
         text-align: center;
@@ -1469,6 +1469,9 @@ form input,.left-7 form select{
     }
     .left-7 textarea{
         width: 95% !important;
+    }
+        .right9-2 form input {
+        width: 206px !important;
     }
 }
 
