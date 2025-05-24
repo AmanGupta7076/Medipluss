@@ -1290,7 +1290,7 @@ form input,.left-7 form select{
         padding-bottom: 80px;
     }
     form input, .left-7 form select{
-        width: 300px !important;
+        width: 390px !important;
     }
     .right9-2 form input{
         width: 400px !important;
@@ -1434,8 +1434,6 @@ form input,.left-7 form select{
         justify-self: end;
         font-size: 1.8rem;
         color: #1A76d1;
-        /* padding-top: 20px; */
-        /* padding-right: 10px; */
     }
     .second button{
         display: none;
@@ -1459,12 +1457,19 @@ form input,.left-7 form select{
         margin-bottom: 40px;
         /* background: red; */
     }
-     .fourth{
+    .fourth{
         height: 100%;
-     }
-     .intel img{
+    }
+    .intel img{
         width: 80%;
-     }
+    }
+    form input,.left-7 form select{
+        width: 200px;
+        margin: 15px 0;
+    }
+    textarea{
+        width: 88% !important;
+    }
 }
 
 @media only screen and (max-width:426px){
