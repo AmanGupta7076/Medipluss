@@ -1289,7 +1289,7 @@ form input,.left-7 form select{
     #divider{
         padding-bottom: 80px;
     }
-    form input, .left-7 form select{
+    .left-7 form input, .left-7 form select{
         width: 390px !important;
     }
     .right9-2 form input{
@@ -1469,6 +1469,9 @@ form input,.left-7 form select{
     }
     .left-7 textarea{
         width: 95% !important;
+    }
+        .right9-2 form input {
+        width: 306px !important;
     }
 }
 
