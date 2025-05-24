@@ -1472,7 +1472,7 @@ form input,.left-7 form select{
     }
 }
 
-@media only screen and (max-width:426px){
+@media only screen and (max-width:427px){
    
    .con-2 .pseudo::before, .con-2 .pseudo::after{
         content: none;
@@ -1528,7 +1528,7 @@ form input,.left-7 form select{
         padding: 0 0 20px 0px;
     }
     .right9-2 form input{
-        width: 330px;
+        width: 335px !important;
     }
     #right-3 h4{
         text-align: center;
@@ -1548,7 +1548,7 @@ form input,.left-7 form select{
 }
 
 
-@media only screen and (max-width:425px)and (min-width:420px){
+@media only screen and (max-width:426px)and (min-width:421px){
     
     html{
         font-size: 15px;
