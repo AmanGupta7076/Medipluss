@@ -1463,12 +1463,12 @@ form input,.left-7 form select{
     .intel img{
         width: 80%;
     }
-    form input,.left-7 form select{
-        width: 180px;
+    .left-7 form input{
+        width: 380px;
         margin: 15px 0;
     }
-    textarea{
-        width: 93% !important;
+    .left-7 textarea{
+        width: 95% !important;
     }
 }
 
