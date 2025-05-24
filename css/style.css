@@ -1548,7 +1548,7 @@ form input,.left-7 form select{
 }
 
 
-@media only screen and (max-width:422px){
+@media only screen and (max-width:425px)and (min-width:420px){
     
     html{
         font-size: 15px;
