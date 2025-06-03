@@ -1464,7 +1464,7 @@ form input,.left-7 form select{
         width: 80%;
     }
     .left-7 form input{
-        width: 380px;
+        width: 380px !important;
         margin: 15px 0;
     }
     .left-7 textarea{
@@ -1666,18 +1666,27 @@ form input,.left-7 form select{
         width: 100px;
     }
     #right-8 #studd input {
-        width: 182px !important;
+        width: 170px !important;
     }
     .right9-2 form input{
         width: 230px;
     }
     .calvin h2{
-        padding-right: 60px;
+        padding-right: 35px;
     }
     #gear img {
         left: -80px;
     }
-    textarea {
-        width: 80% !important;
+    .left-7 p{
+        display: none;
+    }
+    .left-7 textarea {
+        width: 87% !important;
+    }
+    .left-7 form input, .left-7 form select{
+        width: 250px !important;
+    }
+    .left-7 form input{
+        width: 250px !important;
     }
 }
