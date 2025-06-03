@@ -1678,7 +1678,7 @@ form input,.left-7 form select{
         left: -80px;
     }
     .left-7 p{
-        display: none;
+        display: none !important;
     }
     .left-7 textarea {
         width: 87% !important;
@@ -1689,4 +1689,21 @@ form input,.left-7 form select{
     .left-7 form input{
         width: 250px !important;
     }
+}
+
+@media only screen and (max-width:380px){
+
+    .right9-2 form input {
+        width: 300px !important;
+    }
+    #right-8 #studd input {
+        width: 145px !important;
+    }
+    .left-7 p{
+        display: none !important;
+    }
+    .left-7 form input, .left-7 form select {
+        width: 345px !important;
+    }
+
 }
