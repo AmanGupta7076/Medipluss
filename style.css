@@ -146,6 +146,7 @@ html{
 }
 #gypsum .box{
     position: relative;
+    border-radius: 20px !important;
 }
 #gypsum .box span.ice{
     place-self: end;
@@ -672,6 +673,7 @@ html{
 .calvin{
     padding: 30px;
     background-color: #fff;
+    border-radius: 10px !important;
 }
 #gear img{
     border-radius: 100px;
@@ -710,37 +712,59 @@ html{
     line-height: 1.7;
     color: grey;
 }
+.centt .fa{
+    margin-left: 70px !important;
+}
 .cent .fa, .centt .fa{
     text-align: center;
-    font-size: 1.5rem; 
+    font-size: 2.5rem; 
+    margin-left: 25px;
 }
 .cent h3{
     font-size: 14px;
 }
-.centt span, #central hr, .left-4 span, .left-4 b{
-    color: #1A76d1;
+.centt span, #central hr, .left-4 span, .left-4 b,.dep-left1 b,.dep-left2 b,.dep-left3 b,.dep-left4 b,.dep-left1 span,.dep-left2 span,.dep-left3 span,.dep-left4 span{
+    color : rgb(26, 118, 209);
 }
 .beats{
     font-size: 14px !important;
     margin-bottom: 20px;
 }
+#bttn-1,#bttn-2,#bttn-3,#bttn-4,#bttn-5{
+    border: none !important;
+    background: none;
+}
+.activee{
+    display: block !important;
+    /* background-color: green !important; */
+    color: #000 !important;
+    padding: 20px;
+}
+.left-4,.dep-left1,.dep-left2,.dep-left3,.dep-left4{
+    display: none;
+}
 
+.activee-button{
+    /* background-color: navy !important; */
+    color: #000 !important;
+}
 #flurry{
     margin-top: 30px;
 }
 .right-4 img{
     height: 400px;
 }
-.left-4 p, .left-4{
+.left-4 p, .left-4,.dep-left1 p,.dep-left2 p,.dep-left3 p,.dep-left4 p{
     color: rgb(134, 134, 134);
 }
-.centt h2, .left-4 h2{
+.centt h2, .left-4 h2,.dep-left1 h2,.dep-left2 h2,.dep-left3 h2,.dep-left4 h2{
     color: #000;
+    font-size: 1.7rem !important;
 }
 .beats{
     border-bottom: 1px solid #1A76d1;
 }
-#flurry .left-4 hr{
+#flurry .left-4 hr,.dep-left1 hr,.dep-left2 hr,.dep-left3 hr,.dep-left4 hr{
     width: 60px;
     margin-top: 4px;
     background-color: #000;
@@ -1610,6 +1634,33 @@ form input,.left-7 form select{
     }
 }
 
+@media only screen and (max-width:382px){
+    
+    #gypsum .box p {
+    font-size: 0.6rem;
+    }
+    .right9-2 form input {
+        width: 290px !important;
+    }
+    #eighteen h4 {
+    font-size: 1rem;
+    }
+    #right-8 button{
+        width: 130px !important;
+    }
+    .left-7 form select {
+        width: 335px !important;
+    }
+    .left-7 form input {
+        width: 330px !important;
+    }
+    .left-7 p{
+        display: none;
+    }
+    #divide a{
+        margin: 0 auto;
+    }
+}
 @media only screen and (max-width:376px){
     
     #first ul, #styloo{
@@ -1663,7 +1714,8 @@ form input,.left-7 form select{
         bottom: -50px;
     }
     #right-8 button{
-        width: 100px;
+        width: 95px;
+        font-size: .8rem;
     }
     #right-8 #studd input {
         width: 170px !important;
@@ -1691,19 +1743,22 @@ form input,.left-7 form select{
     }
 }
 
-@media only screen and (max-width:380px){
+@media only screen and (max-width:381px){
 
     .right9-2 form input {
-        width: 300px !important;
+        width: 200px !important;
     }
     #right-8 #studd input {
-        width: 145px !important;
+        width: 140px !important;
     }
     .left-7 p{
         display: none !important;
     }
     .left-7 form input, .left-7 form select {
-        width: 345px !important;
+        width: 240px !important;
+    }
+    #eighteen h4 {
+    font-size: .8rem;
     }
 
 }
